@@ -1,5 +1,4 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +8,8 @@
     <title>Vargas & Honor — Dual Portfolio</title>
     <link rel="stylesheet" href="{% static 'portfolio/style.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <div class="logo">VARGAS <span>& HONOR</span></div>
 
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#expertise">Expertise</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -26,20 +27,16 @@
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="overlay"></div>
         <div class="hero-content">
-
             <h4>WELCOME TO OUR DUAL PORTFOLIO</h4>
-
             <h1><span>VARGAS & HONOR</span></h1>
-
             <p>
                 A combined force of innovation and expertise —
                 <strong>over 5 years of professional experience</strong> in modern development,
                 intelligent systems, and cloud-based architectures.
             </p>
-
             <a href="#expertise" class="btn-primary">View Expertise</a>
             <a href="#about" class="btn-outline">About Us</a>
         </div>
@@ -50,9 +47,8 @@
         <h2>WHO WE ARE</h2>
 
         <div class="about-grid">
-
             <div class="about-card">
-                <h3>Vargas</h3>
+                <h3>Jericko Vargas</h3>
                 <p>
                     A passionate developer specializing in
                     <strong>Machine Learning</strong>,
@@ -63,7 +59,7 @@
             </div>
 
             <div class="about-card">
-                <h3>Honor</h3>
+                <h3>Darfe Honor</h3>
                 <p>
                     A backend and infrastructure specialist focusing on
                     <strong>Cloud Computing</strong> and
@@ -71,7 +67,6 @@
                     Experienced in building scalable systems and resilient architectures.
                 </p>
             </div>
-
         </div>
     </section>
 
@@ -80,35 +75,34 @@
         <h2>OUR EXPERTISE</h2>
 
         <div class="services-grid">
-
             <div class="service-card">
                 <i class="fa-solid fa-brain"></i>
                 <h3>Machine Learning</h3>
-                <p>Advanced ML models and intelligent automation (Vargas).</p>
+                <p>Advanced ML models and intelligent automation solutions.</p>
             </div>
 
             <div class="service-card">
                 <i class="fa-solid fa-code"></i>
                 <h3>Web Development</h3>
-                <p>Modern, responsive, feature-rich websites (Vargas).</p>
+                <p>Modern, responsive, feature-rich websites and applications.</p>
             </div>
 
             <div class="service-card">
                 <i class="fa-solid fa-wand-magic-sparkles"></i>
                 <h3>Frontend Engineering</h3>
-                <p>Pixel-perfect UI, animations, clean layouts (Vargas).</p>
+                <p>Pixel-perfect UI, animations, and clean interactive layouts.</p>
             </div>
 
             <div class="service-card">
                 <i class="fa-solid fa-cloud"></i>
                 <h3>Cloud Computing</h3>
-                <p>Secure, scalable cloud infrastructures (Honor).</p>
+                <p>Secure, scalable cloud infrastructures and deployments.</p>
             </div>
 
             <div class="service-card">
                 <i class="fa-solid fa-server"></i>
                 <h3>Backend Development</h3>
-                <p>Optimized backend systems and APIs (Honor).</p>
+                <p>Optimized backend systems, APIs, and database architecture.</p>
             </div>
 
             <div class="service-card">
@@ -116,8 +110,16 @@
                 <h3>System Architecture</h3>
                 <p>Reliable system design with future scalability in mind.</p>
             </div>
-
         </div>
+    </section>
+
+    <!-- CONTACT SECTION (Add if you want) -->
+    <section style="padding: 60px; text-align: center; background: #0f0e1a;" id="contact">
+        <h2 style="color: #b7b8e6; margin-bottom: 30px;">GET IN TOUCH</h2>
+        <p style="color: #8a8dc9; max-width: 600px; margin: 0 auto;">
+            Ready to start your project? Contact us for a consultation.
+            <br>Email: contact@vargasandhonor.com
+        </p>
     </section>
 
 </body>
