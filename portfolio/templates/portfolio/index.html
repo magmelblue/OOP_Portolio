@@ -1,0 +1,125 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vargas & Honor — Dual Portfolio</title>
+    <link rel="stylesheet" href="{% static 'portfolio/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <div class="logo">VARGAS <span>& HONOR</span></div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+
+            <h4>WELCOME TO OUR DUAL PORTFOLIO</h4>
+
+            <h1><span>VARGAS & HONOR</span></h1>
+
+            <p>
+                A combined force of innovation and expertise —
+                <strong>over 5 years of professional experience</strong> in modern development,
+                intelligent systems, and cloud-based architectures.
+            </p>
+
+            <a href="#expertise" class="btn-primary">View Expertise</a>
+            <a href="#about" class="btn-outline">About Us</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <h2>WHO WE ARE</h2>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <h3>Vargas</h3>
+                <p>
+                    A passionate developer specializing in
+                    <strong>Machine Learning</strong>,
+                    <strong>Web Development</strong>, and
+                    <strong>Frontend Engineering</strong>.
+                    Skilled at crafting intelligent systems and polished UI experiences.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <h3>Honor</h3>
+                <p>
+                    A backend and infrastructure specialist focusing on
+                    <strong>Cloud Computing</strong> and
+                    <strong>Backend Development</strong>.
+                    Experienced in building scalable systems and resilient architectures.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EXPERTISE SECTION -->
+    <section class="services" id="expertise">
+        <h2>OUR EXPERTISE</h2>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Machine Learning</h3>
+                <p>Advanced ML models and intelligent automation (Vargas).</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Modern, responsive, feature-rich websites (Vargas).</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h3>Frontend Engineering</h3>
+                <p>Pixel-perfect UI, animations, clean layouts (Vargas).</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Cloud Computing</h3>
+                <p>Secure, scalable cloud infrastructures (Honor).</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Optimized backend systems and APIs (Honor).</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>System Architecture</h3>
+                <p>Reliable system design with future scalability in mind.</p>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
